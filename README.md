@@ -40,12 +40,12 @@ const ui = workyTurkey.expose({
   // the `increment` function will be available in the main thread
   increment(value = 1) {
     counter += value
-    // call the `render` function exposed by the worker
+    // call the `render` function exposed by the ui thread
     ui.render(counter)
   }
 });
 
-// call the `render` function exposed by the worker
+// call the `render` function exposed by the ui thread
 ui.render(counter)
 …
 ```

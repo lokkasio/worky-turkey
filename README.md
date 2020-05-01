@@ -58,14 +58,14 @@ worky-turkey uses [proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 
 ### What's about [Comlink](https://github.com/GoogleChromeLabs/comlink)?
 
-worky-turkey is heavily inpired by Comlink. But there are use cases, you just don't need the super power of Comlink.
+worky-turkey is heavily inspired by Comlink. But there are use cases, you just don't need the super power of Comlink.
 
 Comparend to [Comlink](https://github.com/GoogleChromeLabs/comlink), worky-turkey...
 
-- only support function calls
+- only supports function calls
 - does _not_ return anything (just fire and forget)
 - does _not_ support callbacks as function parameter (just [Transferables](https://github.com/GoogleChromeLabs/comlink/blob/master/structured-clone-table.md). As rule of thumb: only use primitives, plain objects and arrays as parameter)
-- is written in less than 25 lines of code 😎(~300 bytes minified, ~240 bytes gzipped)
+- is written in less than 25 lines of code 😎 (~300 bytes minified, ~240 bytes gzipped)
 
 This is **great** if you just want the other side know, that something has to be done.  
 This is **not so great** if you rely on the result of the other sides function call.

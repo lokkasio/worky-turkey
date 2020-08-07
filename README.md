@@ -10,7 +10,7 @@ index.html
 
 ```html
 <button type="button" id="counter"></button>
-<script src="…/wokry-turkey.min.js"></script>
+<script src="wokry-turkey.min.js"></script>
 <script>
   const counterButton = document.getElementById('counter')
   const worker = workyTurkey.expose(
@@ -33,7 +33,7 @@ index.html
 worker.js
 
 ```js
-loadScripts('…/worky-turkey.min.js')
+loadScripts('worky-turkey.min.js')
 let counter = 0;
 
 const ui = workyTurkey.expose({

@@ -1,6 +1,6 @@
 {
   "name": "worky-turkey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "call functions in web worker from main thread (et vice versa)",
   "main": "index.js",
   "unpkg": "dist/worky-turkey.min.js",
